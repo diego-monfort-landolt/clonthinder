@@ -1,0 +1,30 @@
+
+.tarjeta {
+    position: relative;
+    width: 350px;
+    padding: 20px;
+    max-width: 85vw;
+    height: 45vh;
+    border-radius: 20px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    box-shadow: 1px 1px 10px rgba(255, 0, 0, 0.418);
+  
+    outline: none;
+}
+.tarjeta h2 {
+    position: absolute;
+    bottom: 10px;
+    color: #000;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+.tarjetas__container {
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+}
+.swipe {
+    position: absolute;
+}
