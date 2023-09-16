@@ -1,0 +1,31 @@
+
+
+.chat_detalles {
+    padding: 20px;
+    height: 120px;
+    border-bottom: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 1px 1px 5px #444;
+    
+}
+
+.imgchat {
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    float: left;
+
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+
+}

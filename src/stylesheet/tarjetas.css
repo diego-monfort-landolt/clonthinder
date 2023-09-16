@@ -15,11 +15,16 @@
 }
 .tarjeta h2 {
     position: absolute;
-    bottom: 10px;
+    bottom: 50px;
     color: #000;
     font-style: italic;
     font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    background-color: rgba(240, 248, 255, 0.308);
+    border-radius: 12px 0 12px 0;
 }
+
+
 .tarjetas__container {
     display: flex;
     justify-content: center;
@@ -27,4 +32,35 @@
 }
 .swipe {
     position: absolute;
+}
+.icons {
+display: flex;
+width: 80%;
+position: fixed;
+justify-content: space-evenly;
+bottom: 30vh;
+}
+.icons .x {
+    font-size: 45px;
+    padding:10px; 
+    border-radius: 100%;
+    border: 1px solid red;
+    color: red;
+    font-weight: bolder;
+    box-shadow: 1px 1px 5px #a11a1abd;
+   
+}
+
+.icons .lov {
+    font-size: 45px;
+    padding:10px; 
+    border-radius: 100%;
+    border: 1px solid #000;
+    color: red;
+    font-weight: bolder;
+    box-shadow: 1px 1px 5px #cf14149f;
+    
+}
+.icons .star {
+    color: purple;
 }

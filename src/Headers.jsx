@@ -6,10 +6,13 @@ import './stylesheet/header.css'
 import { IconButton } from '@mui/material';
 import { Link } from 'react-router-dom';
 
+
 const Headers = () => {
+
     return (
         <>
             <div className='header'>
+
                 <Link to='/user' >
                     <IconButton>
                         <Person2Icon className='header__icon' fontSize='large' />
